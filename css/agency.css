@@ -274,11 +274,6 @@ header {
     -o-background-size: cover;
 }
 
-.intro-lean-in {
-    color:#B20000;
-    font-family:"Kaushan Script";
-}
-
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
@@ -290,6 +285,14 @@ header .intro-text .intro-lead-in {
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
+}
+.text{
+    color:#B20000;
+    font-family:"Kaushan Script";
+}
+
+.learning {
+    margin-top:5%;
 }
 
 header .intro-text .intro-heading {
@@ -845,7 +848,7 @@ ul.social-buttons li a:active {
 }
 
 .portfolio-modal .modal-backdrop {
-    display: none;
+
     opacity: 0;
 }
 
@@ -869,4 +872,9 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #B20000;
+}
+#title{
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 3%;
 }
